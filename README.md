@@ -1,3 +1,5 @@
+# Traiding-bot
+
 How to Run the Project
 
 Backend (FastAPI)
@@ -18,4 +20,23 @@ Frontend runs at: http://localhost:3000
 CLI Usage
 cd traiding_bot_backend python cli.py
 
-Lets you place Market/Limit orders through the terminal.
+Lets you place Market/Limit orders through the terminal.  
+
+
+# Backend
+
+Places Market and Limit orders (Buy/Sell).
+
+Uses official Binance Futures Testnet API.
+
+Clean class-based structure for reusability.
+
+Includes basic logging and error handling.
+
+# Frontend
+
+Built with TSX (React) and Tailwind CSS.
+
+Simple UI to place orders and view responses.
+
+Responsive layout with clean component structure.
